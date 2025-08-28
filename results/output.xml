@@ -1,22 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-28T21:10:05.349709" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-28T21:31:49.330273" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="/home/runner/work/web_with_test/web_with_test/tests/suites">
 <suite id="s1-s1" name="Coba" source="/home/runner/work/web_with_test/web_with_test/tests/suites/coba.robot">
 <test id="s1-s1-t1" name="Coba Satu" line="8">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-28T21:10:05.475932" level="INFO">haiii</msg>
+<msg time="2025-08-28T21:31:49.458919" level="INFO">haiii</msg>
 <arg>haiii</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-28T21:10:05.475718" elapsed="0.000285"/>
+<status status="PASS" start="2025-08-28T21:31:49.458689" elapsed="0.000323"/>
 </kw>
-<msg time="2025-08-28T21:10:05.480067" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:53537</msg>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-28T21:31:49.459345" level="INFO">haiii</msg>
+<arg>haiii</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-28T21:31:49.459184" elapsed="0.000218"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-28T21:31:49.459703" level="INFO">haiii</msg>
+<arg>haiii</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-28T21:31:49.459546" elapsed="0.000203"/>
+</kw>
+<msg time="2025-08-28T21:31:49.463841" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:33607</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-28T21:10:05.474948" elapsed="0.001222"/>
+<status status="PASS" start="2025-08-28T21:31:49.457869" elapsed="0.001995"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-28T21:10:05.366448" elapsed="0.549089"/>
+<status status="PASS" start="2025-08-28T21:31:49.347084" elapsed="0.554083"/>
 </suite>
-<status status="PASS" start="2025-08-28T21:10:05.350538" elapsed="0.569751"/>
+<status status="PASS" start="2025-08-28T21:31:49.331127" elapsed="0.576133"/>
 </suite>
 <statistics>
 <total>
