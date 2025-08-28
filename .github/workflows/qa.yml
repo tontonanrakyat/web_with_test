@@ -23,6 +23,10 @@ jobs:
           pip install -r requirements.txt
           rfbrowser init
 
+      - name: Running Web Server
+        run: |
+          python -m http.server 5050 --directory ./web
+
       - name: Run Robot Framework tests
         run: |
           robotcode run ./tests/suites/
