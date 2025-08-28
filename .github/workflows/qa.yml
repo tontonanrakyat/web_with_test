@@ -25,7 +25,7 @@ jobs:
 
       - name: Running Web Server
         run: |
-          python -m http.server 5050 --directory ./web
+          python -m http.server 5050 --directory ./web &
 
       - name: Run Robot Framework tests
         run: |
