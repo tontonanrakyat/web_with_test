@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
           rfbrowser init
 
-      - name: Running Web Server
+      - name: Run Web Server
         run: |
           python -m http.server 5050 --directory ./web &
 
@@ -31,20 +31,15 @@ jobs:
         run: |
           robotcode run ./tests/suites/
 
-      # - name: Run Robot Framework tests
-      #   run: |
-      #     mkdir -p results
-      #     robot --outputdir results tests/
+      - name: Prepare files for GitHub Pages
+        run: |
+          mkdir -p public
+          cp -r web/* public/
+          mkdir -p public/results
+          cp -r tests/results/* public/results/
 
-      # - name: Upload results as artifact (backup)
-      #   uses: actions/upload-artifact@v4
-      #   with:
-      #     name: robot-results
-      #     path: results/
-
-      # - name: Deploy results to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v4
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./   # publish seluruh repo
-      #     destination_dir: . # akar GitHub Pages
+      - name: Deploy 🚀
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
