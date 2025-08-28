@@ -25,7 +25,7 @@ jobs:
 
       - name: Run Robot Framework tests
         run: |
-          robotcode run .\tests\suites\
+          robotcode run ./tests/suites/
 
       # - name: Run Robot Framework tests
       #   run: |
