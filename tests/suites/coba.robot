@@ -8,3 +8,5 @@ Library             Browser
 Coba Satu
     [Documentation]    ini dokumentasi dari test coba satu
     BuiltIn.Log    haiii
+    BuiltIn.Log    haiii
+    BuiltIn.Log    haiii
