@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-29T21:55:11.443339" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-29T21:59:23.144349" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="/home/runner/work/web_with_test/web_with_test/tests/suites">
 <suite id="s1-s1" name="Coba" source="/home/runner/work/web_with_test/web_with_test/tests/suites/coba.robot">
 <test id="s1-s1-t1" name="Coba Satu" line="8">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T21:55:11.566880" level="INFO">haiii</msg>
+<msg time="2025-08-29T21:59:23.274296" level="INFO">haiii</msg>
 <arg>haiii</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T21:55:11.566677" elapsed="0.000273"/>
+<status status="PASS" start="2025-08-29T21:59:23.274081" elapsed="0.000285"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T21:55:11.567239" level="INFO">haiii</msg>
+<msg time="2025-08-29T21:59:23.274709" level="INFO">haiii</msg>
 <arg>haiii</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T21:55:11.567097" elapsed="0.000230"/>
+<status status="PASS" start="2025-08-29T21:59:23.274548" elapsed="0.000216"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T21:55:11.567566" level="INFO">haiii</msg>
+<msg time="2025-08-29T21:59:23.275011" level="INFO">haiii</msg>
 <arg>haiii</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T21:55:11.567441" elapsed="0.000170"/>
+<status status="PASS" start="2025-08-29T21:59:23.274882" elapsed="0.000173"/>
 </kw>
-<msg time="2025-08-29T21:55:11.571784" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:43075</msg>
+<msg time="2025-08-29T21:59:23.279224" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:37779</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-29T21:55:11.565819" elapsed="0.001900"/>
+<status status="PASS" start="2025-08-29T21:59:23.273303" elapsed="0.001866"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-29T21:55:11.459834" elapsed="0.549224"/>
+<status status="PASS" start="2025-08-29T21:59:23.161231" elapsed="0.563888"/>
 </suite>
-<status status="PASS" start="2025-08-29T21:55:11.444134" elapsed="0.569593"/>
+<status status="PASS" start="2025-08-29T21:59:23.145185" elapsed="0.584970"/>
 </suite>
 <statistics>
 <total>
