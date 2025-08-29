@@ -1,8 +1,8 @@
 name: QA Pull Request
 
 on:
-  push:
-    # branches: [ qa ]
+  # push:
+  #   branches: [ qa ]
   pull_request:
     branches: [ qa ]
     # paths: ["**"]

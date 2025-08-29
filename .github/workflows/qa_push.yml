@@ -3,7 +3,7 @@ name: QA New Commit
 on:
   push:
     branches: [ qa ]
-  pull_request:
+  # pull_request:
     # branches: [ qa ]
     # paths: ["**"]
     # paths:
