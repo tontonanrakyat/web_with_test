@@ -11,8 +11,8 @@ Library             Browser
 Coba Satu
     [Documentation]    ini dokumentasi dari test coba satu
     BuiltIn.Log    ${NAMA}
-    BuiltIn.Log    %{USERNAME}
-    BuiltIn.Log    %{OS}
+    # BuiltIn.Log    %{USERNAME}
+    # BuiltIn.Log    %{OS}
     # BuiltIn.Log    %{MYPWD}
     BuiltIn.Log    ${MYPWD}
     BuiltIn.Log    ${DB_PWD}
