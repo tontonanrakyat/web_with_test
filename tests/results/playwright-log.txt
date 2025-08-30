@@ -1,35 +1,35 @@
-{"level":30,"time":"2025-08-28T18:20:12.513Z","pid":18284,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:2975"}
-(node:18284) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-08-30T21:58:03.983Z","pid":7888,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:9668"}
+(node:7888) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
-    at PlaywrightServer.setTimeout (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
-    at Object.onReceiveHalfClose (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-28T18:20:12.580Z","pid":18284,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-28T18:20:12.580Z","pid":18284,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T21:58:04.571Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T21:58:04.571Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
-    at PlaywrightServer.setTimeout (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
-    at Object.onReceiveHalfClose (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
+    at PlaywrightServer.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
+    at PlaywrightServer.setTimeout (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
+    at Object.onReceiveHalfClose (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
     at ServerHttp2Stream.emit (node:events:531:35)
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-28T18:20:12.585Z","pid":18284,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-28T18:20:12.585Z","pid":18284,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-28T18:20:12.618Z","pid":18284,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-08-28T18:20:12.618Z","pid":18284,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T21:58:04.582Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T21:58:04.582Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T21:58:04.765Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T21:58:04.765Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}

@@ -1,22 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-08-29T01:20:11.823386" rpa="false" schemaversion="5">
-<suite id="s1" name="Suites" source="D:\CODING\robot\web_with_test\tests\suites">
-<suite id="s1-s1" name="Coba" source="D:\CODING\robot\web_with_test\tests\suites\coba.robot">
-<test id="s1-s1-t1" name="Coba Satu" line="8">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-08-31T04:58:03.153510" rpa="false" schemaversion="5">
+<suite id="s1" name="Web With Test" source="D:\CODING\robot\web_with_test">
+<suite id="s1-s1" name="Tests" source="D:\CODING\robot\web_with_test\tests">
+<suite id="s1-s1-s1" name="Suites" source="D:\CODING\robot\web_with_test\tests\suites">
+<suite id="s1-s1-s1-s1" name="Coba" source="D:\CODING\robot\web_with_test\tests\suites\coba.robot">
+<test id="s1-s1-s1-s1-t1" name="Coba Satu" line="11">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T01:20:11.970811" level="INFO">haiii</msg>
-<arg>haiii</arg>
+<msg time="2025-08-31T04:58:03.388923" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T01:20:11.970619" elapsed="0.000246"/>
+<status status="PASS" start="2025-08-31T04:58:03.388428" elapsed="0.000737"/>
 </kw>
-<msg time="2025-08-29T01:20:11.997239" level="INFO">Starting Browser process d:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:2975</msg>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-31T04:58:03.390050" level="INFO">nostras</msg>
+<arg>%{USERNAME}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-31T04:58:03.389611" elapsed="0.000797"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-31T04:58:03.391214" level="INFO">Windows_NT</msg>
+<arg>%{OS}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-31T04:58:03.390871" elapsed="0.000555"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-31T04:58:03.392084" level="INFO">rahasia</msg>
+<arg>${MYPWD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-31T04:58:03.391743" elapsed="0.000511"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-31T04:58:03.392839" level="INFO">super secret</msg>
+<arg>${DB_PWD}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-31T04:58:03.392469" elapsed="0.000547"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-31T04:58:03.393841" level="INFO">taruna nusantara</msg>
+<arg>${SEKOLAH}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-31T04:58:03.393380" elapsed="0.000667"/>
+</kw>
+<msg time="2025-08-31T04:58:03.429686" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:9668</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-29T01:20:11.969886" elapsed="0.001276"/>
+<status status="PASS" start="2025-08-31T04:58:03.380748" elapsed="0.013743"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-29T01:20:11.841847" elapsed="0.740914"/>
+<status status="PASS" start="2025-08-31T04:58:03.216277" elapsed="1.357220"/>
 </suite>
-<status status="PASS" start="2025-08-29T01:20:11.824904" elapsed="0.762883"/>
+<status status="PASS" start="2025-08-31T04:58:03.212516" elapsed="1.372096"/>
+</suite>
+<status status="PASS" start="2025-08-31T04:58:03.204731" elapsed="1.383608"/>
+</suite>
+<status status="PASS" start="2025-08-31T04:58:03.166837" elapsed="1.424773"/>
 </suite>
 <statistics>
 <total>
@@ -25,8 +61,10 @@
 <tag>
 </tag>
 <suite>
-<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
-<stat name="Coba" id="s1-s1" pass="1" fail="0" skip="0">Suites.Coba</stat>
+<stat name="Web With Test" id="s1" pass="1" fail="0" skip="0">Web With Test</stat>
+<stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests</stat>
+<stat name="Suites" id="s1-s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests.Suites</stat>
+<stat name="Coba" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests.Suites.Coba</stat>
 </suite>
 </statistics>
 <errors>

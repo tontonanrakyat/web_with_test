@@ -1,1 +1,9 @@
 output-dir = "./tests/results"
+variable-files = ["dotenv_vars.py"]
+
+[variables]
+NAMA = "somad"
+
+# [env]
+# MYPWD = "rahasia banget"
+# DB_PWD = "super secret"
