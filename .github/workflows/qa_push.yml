@@ -27,15 +27,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Buat file .env
-        run: |
-          echo 'MYPWD="rahasia banget 123"' >> .env
-          echo 'DB_PWD="super secret 123"' >> .env
-
-      # - name: Buat file .env dari secrets
+      # - name: Buat file .env
       #   run: |
-      #     echo "MYPWD=${{ secrets.MYPWD }}" >> .env
-      #     echo "DB_PWD=${{ secrets.DB_PWD }}" >> .env
+      #     echo 'MYPWD="rahasia banget 123"' >> .env
+      #     echo 'DB_PWD="super secret 123"' >> .env
+
+      - name: Buat file .env dari secrets
+        run: |
+          echo "MYPWD=${{ secrets.MYPWD }}" >> .env
+          echo "DB_PWD=${{ secrets.DB_PWD }}" >> .env
 
       - name: Set up Python
         uses: actions/setup-python@v5
