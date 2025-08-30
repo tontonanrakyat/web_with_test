@@ -15,9 +15,27 @@ jobs:
     # if: github.head_ref == 'dev'
     runs-on: ubuntu-latest
 
+    # env:
+    #   MYPWD: "rahasia banget"
+    #   DB_PWD: "super secret"
+
+    # env:
+    #   MYPWD: ${{ secrets.MYPWD }}
+    #   DB_PWD: ${{ secrets.DB_PWD }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Buat file .env
+        run: |
+          echo 'MYPWD="rahasia banget 123"' >> .env
+          echo 'DB_PWD="super secret 123"' >> .env
+
+      # - name: Buat file .env dari secrets
+      #   run: |
+      #     echo "MYPWD=${{ secrets.MYPWD }}" >> .env
+      #     echo "DB_PWD=${{ secrets.DB_PWD }}" >> .env
 
       - name: Set up Python
         uses: actions/setup-python@v5
