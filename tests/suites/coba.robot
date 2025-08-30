@@ -13,7 +13,8 @@ Coba Satu
 
 Coba Dua
     [Documentation]    ini dokumentasi dari test coba dua
-    Browser.New Browser    browser=chromium    headless=No    slowMo=0:00:01
+    # Browser.New Browser    browser=chromium    headless=No    slowMo=0:00:01
+    Browser.New Browser    browser=chromium    headless=Yes    slowMo=0:00:01
     Browser.New Page    url=https://google.com
     Browser.Take Screenshot
     Browser.New Page    url=http://127.0.0.1:5050
