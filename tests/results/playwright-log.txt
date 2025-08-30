@@ -1,6 +1,32 @@
-{"level":30,"time":"2025-08-30T21:58:03.983Z","pid":7888,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:9668"}
-(node:7888) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-08-30T23:02:37.565Z","pid":25992,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:9612"}
+(node:25992) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-30T23:02:38.085Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-30T23:02:38.300Z","pid":25992,"hostname":"nostra-pc","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-08-30T23:02:38.302Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-30T23:02:38.301Z","pid":25992,"hostname":"nostra-pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-30T23:02:38.311Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-30T23:02:38.311Z","pid":25992,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@798a6e2bdadd0faa3b1069253a7dd433\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=5d314771-9faf-4087-9349-364edd63caee\"}"}
+{"level":30,"time":"2025-08-30T23:02:38.328Z","pid":25992,"hostname":"nostra-pc","msg":"Setting default timeout for context context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 to 10000"}
+{"level":30,"time":"2025-08-30T23:02:38.329Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active context: context=d8b3670a-b751-4606-b2e2-ae92e7234fa5"}
+{"level":30,"time":"2025-08-30T23:02:38.489Z","pid":25992,"hostname":"nostra-pc","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-30T23:02:38.489Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active page"}
+{"level":30,"time":"2025-08-30T23:02:40.260Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-30T23:02:40.265Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:02:40.266Z","pid":25992,"hostname":"nostra-pc","Take screenshot with options: ":{"path":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-30T23:02:40.354Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:02:40.358Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-30T23:02:40.358Z","pid":25992,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@798a6e2bdadd0faa3b1069253a7dd433\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=d8b3670a-b751-4606-b2e2-ae92e7234fa5\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@18077a8d8ebb0aca4cea47d29b4892f8\"},\"pageStack\":[{\"id\":\"page=234c7235-859b-4d30-8810-3fa7416de72c\",\"p\":{\"_type\":\"Page\",\"_guid\":\"page@dd1972fa5fd5db342de7490def834c46\"},\"timestamp\":1756594958.489,\"pageErrors\":[],\"errorIndex\":0,\"consoleMessages\":[],\"consoleIndex\":0,\"activeDownloads\":{}}],\"traceFile\":\"\"}],\"id\":\"browser=5d314771-9faf-4087-9349-364edd63caee\"}"}
+{"level":30,"time":"2025-08-30T23:02:40.402Z","pid":25992,"hostname":"nostra-pc","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-30T23:02:40.402Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active page"}
+{"level":30,"time":"2025-08-30T23:02:41.420Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-30T23:02:41.425Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:02:41.425Z","pid":25992,"hostname":"nostra-pc","Take screenshot with options: ":{"path":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-30T23:02:41.495Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:02:41.499Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-30T23:02:41.510Z","pid":25992,"hostname":"nostra-pc","msg":"Removed page=576eff20-6f68-4815-a4c7-42572bf3e391 from context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 page stack"}
+{"level":30,"time":"2025-08-30T23:02:41.511Z","pid":25992,"hostname":"nostra-pc","msg":"Removed page=0e5ad8ca-ce50-4b03-8d76-d0e942f2136c from context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 page stack"}
+{"level":30,"time":"2025-08-30T23:02:41.725Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
@@ -14,8 +40,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T21:58:04.571Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T21:58:04.571Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:02:41.739Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:02:41.739Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
@@ -29,7 +55,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1696:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T21:58:04.582Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T21:58:04.582Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T21:58:04.765Z","pid":7888,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-08-30T21:58:04.765Z","pid":7888,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T23:02:41.753Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:02:41.753Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:02:41.993Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T23:02:41.994Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}

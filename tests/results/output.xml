@@ -1,58 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-08-31T04:58:03.153510" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-08-31T06:02:36.751762" rpa="false" schemaversion="5">
 <suite id="s1" name="Web With Test" source="D:\CODING\robot\web_with_test">
 <suite id="s1-s1" name="Tests" source="D:\CODING\robot\web_with_test\tests">
 <suite id="s1-s1-s1" name="Suites" source="D:\CODING\robot\web_with_test\tests\suites">
 <suite id="s1-s1-s1-s1" name="Coba" source="D:\CODING\robot\web_with_test\tests\suites\coba.robot">
-<test id="s1-s1-s1-s1-t1" name="Coba Satu" line="11">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.388923" level="INFO">somad</msg>
-<arg>${NAMA}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.388428" elapsed="0.000737"/>
+<test id="s1-s1-s1-s1-t1" name="Coba Dua" line="14">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-08-31T06:02:36.966900" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\ff75c269-af7b-45fd-b66f-e88ea98d12d7"}</msg>
+<msg time="2025-08-31T06:02:36.995978" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:9612</msg>
+<msg time="2025-08-31T06:02:38.303810" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\ff75c269-af7b-45fd-b66f-e88ea98d12d7"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=No</arg>
+<arg>slowMo=0:00:01</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-08-31T06:02:36.965957" elapsed="1.338511"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.390050" level="INFO">nostras</msg>
-<arg>%{USERNAME}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.389611" elapsed="0.000797"/>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-31T06:02:40.261696" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
+<msg time="2025-08-31T06:02:40.261912" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>url=https://google.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-31T06:02:38.306050" elapsed="1.956080"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.391214" level="INFO">Windows_NT</msg>
-<arg>%{OS}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.390871" elapsed="0.000555"/>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-08-31T06:02:40.355702" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-08-31T06:02:40.262650" elapsed="0.093322"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.392084" level="INFO">rahasia</msg>
-<arg>${MYPWD}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.391743" elapsed="0.000511"/>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-31T06:02:41.422088" level="INFO">Successfully initialized new page object and opened url: http://127.0.0.1:5050</msg>
+<arg>url=http://127.0.0.1:5050</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-31T06:02:40.356422" elapsed="1.066047"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.392839" level="INFO">super secret</msg>
-<arg>${DB_PWD}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.392469" elapsed="0.000547"/>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-08-31T06:02:41.496637" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-08-31T06:02:41.422932" elapsed="0.074216"/>
 </kw>
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-31T04:58:03.393841" level="INFO">taruna nusantara</msg>
-<arg>${SEKOLAH}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-31T04:58:03.393380" elapsed="0.000667"/>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-08-31T06:02:41.726858" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-31T06:02:41.497538" elapsed="0.229822"/>
 </kw>
-<msg time="2025-08-31T04:58:03.429686" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:9668</msg>
-<doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-31T04:58:03.380748" elapsed="0.013743"/>
+<doc>ini dokumentasi dari test coba dua</doc>
+<status status="PASS" start="2025-08-31T06:02:36.960150" elapsed="4.767722"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-31T04:58:03.216277" elapsed="1.357220"/>
+<status status="PASS" start="2025-08-31T06:02:36.808944" elapsed="4.933142"/>
 </suite>
-<status status="PASS" start="2025-08-31T04:58:03.212516" elapsed="1.372096"/>
+<status status="PASS" start="2025-08-31T06:02:36.800344" elapsed="4.955144"/>
 </suite>
-<status status="PASS" start="2025-08-31T04:58:03.204731" elapsed="1.383608"/>
+<status status="PASS" start="2025-08-31T06:02:36.796791" elapsed="4.962149"/>
 </suite>
-<status status="PASS" start="2025-08-31T04:58:03.166837" elapsed="1.424773"/>
+<status status="PASS" start="2025-08-31T06:02:36.763811" elapsed="4.997923"/>
 </suite>
 <statistics>
 <total>
