@@ -1,44 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-29T22:04:35.057991" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-30T22:29:19.439610" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="/home/runner/work/web_with_test/web_with_test/tests/suites">
 <suite id="s1-s1" name="Coba" source="/home/runner/work/web_with_test/web_with_test/tests/suites/coba.robot">
-<test id="s1-s1-t1" name="Coba Satu" line="8">
+<test id="s1-s1-t1" name="Coba Satu" line="11">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T22:04:35.185840" level="INFO">haiii</msg>
-<arg>haiii</arg>
+<msg time="2025-08-30T22:29:19.566219" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T22:04:35.185613" elapsed="0.000298"/>
+<status status="PASS" start="2025-08-30T22:29:19.565994" elapsed="0.000295"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T22:04:35.186206" level="INFO">haiii</msg>
-<arg>haiii</arg>
+<msg time="2025-08-30T22:29:19.566642" level="INFO">rahasia banget 123</msg>
+<arg>${MYPWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T22:04:35.186064" elapsed="0.000195"/>
+<status status="PASS" start="2025-08-30T22:29:19.566464" elapsed="0.000228"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-29T22:04:35.186524" level="INFO">haiii</msg>
-<arg>haiii</arg>
+<msg time="2025-08-30T22:29:19.566956" level="INFO">super secret 123</msg>
+<arg>${DB_PWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-29T22:04:35.186399" elapsed="0.000169"/>
+<status status="PASS" start="2025-08-30T22:29:19.566812" elapsed="0.000186"/>
 </kw>
-<msg time="2025-08-29T22:04:35.190645" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:49869</msg>
+<msg time="2025-08-30T22:29:19.570818" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:33733</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-29T22:04:35.184827" elapsed="0.001852"/>
+<status status="PASS" start="2025-08-30T22:29:19.565300" elapsed="0.001801"/>
+</test>
+<test id="s1-s1-t2" name="Coba Dua" line="20">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-30T22:29:20.004525" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-30T22:29:20.004260" elapsed="0.000326"/>
+</kw>
+<doc>ini dokumentasi dari test coba dua</doc>
+<status status="PASS" start="2025-08-30T22:29:20.001801" elapsed="0.002907"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-29T22:04:35.075122" elapsed="0.551347"/>
+<status status="PASS" start="2025-08-30T22:29:19.460370" elapsed="0.548611"/>
 </suite>
-<status status="PASS" start="2025-08-29T22:04:35.058881" elapsed="0.572059"/>
+<suite id="s1-s2" name="Lagi" source="/home/runner/work/web_with_test/web_with_test/tests/suites/lagi.robot">
+<test id="s1-s2-t1" name="Lagi Satu" line="11">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-30T22:29:20.019122" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-30T22:29:20.018938" elapsed="0.000235"/>
+</kw>
+<doc>ini dokumentasi dari test lagi satu</doc>
+<status status="PASS" start="2025-08-30T22:29:20.016718" elapsed="0.002561"/>
+</test>
+<test id="s1-s2-t2" name="Lagi Dua" line="15">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-08-30T22:29:20.025576" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-08-30T22:29:20.025382" elapsed="0.000244"/>
+</kw>
+<doc>ini dokumentasi dari test lagi dua</doc>
+<status status="PASS" start="2025-08-30T22:29:20.023230" elapsed="0.002496"/>
+</test>
+<doc>ini dokumentasi dari suite lagi</doc>
+<status status="PASS" start="2025-08-30T22:29:20.012830" elapsed="0.016499"/>
+</suite>
+<status status="PASS" start="2025-08-30T22:29:19.444691" elapsed="0.588522"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Suites" id="s1" pass="1" fail="0" skip="0">Suites</stat>
-<stat name="Coba" id="s1-s1" pass="1" fail="0" skip="0">Suites.Coba</stat>
+<stat name="Suites" id="s1" pass="4" fail="0" skip="0">Suites</stat>
+<stat name="Coba" id="s1-s1" pass="2" fail="0" skip="0">Suites.Coba</stat>
+<stat name="Lagi" id="s1-s2" pass="2" fail="0" skip="0">Suites.Lagi</stat>
 </suite>
 </statistics>
 <errors>
