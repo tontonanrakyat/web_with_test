@@ -1,5 +1,5 @@
-{"level":30,"time":"2025-08-30T22:36:28.875Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Listening on 127.0.0.1:57853"}
-(node:3092) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-08-30T23:06:58.977Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Listening on 127.0.0.1:53713"}
+(node:3079) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ================= Original suppressed error =================
 Error: Browser has been closed.
@@ -14,10 +14,36 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.905Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.905Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.908Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.908Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:06:59.003Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:06:59.003Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:06:59.005Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:06:59.006Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:06:59.009Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-30T23:07:00.212Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-08-30T23:07:00.213Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-30T23:07:00.213Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-30T23:07:00.218Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-30T23:07:00.218Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c8e073203a23c90bb9fab61ad3a732be\"},\"headless\":true,\"_contextStack\":[],\"id\":\"browser=0f4559ab-c853-47b3-9bf8-6855a34556ec\"}"}
+{"level":30,"time":"2025-08-30T23:07:00.227Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Setting default timeout for context context=3979651f-0f8a-4706-9b71-6a2838f2cc53 to 10000"}
+{"level":30,"time":"2025-08-30T23:07:00.228Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Changed active context: context=3979651f-0f8a-4706-9b71-6a2838f2cc53"}
+{"level":30,"time":"2025-08-30T23:07:00.264Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-30T23:07:00.264Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Changed active page"}
+{"level":30,"time":"2025-08-30T23:07:01.864Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-30T23:07:01.869Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:07:01.869Z","pid":3079,"hostname":"pkrvmccyg1gnepe","Take screenshot with options: ":{"path":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-30T23:07:01.938Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:07:01.941Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-30T23:07:01.941Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@c8e073203a23c90bb9fab61ad3a732be\"},\"headless\":true,\"_contextStack\":[{\"id\":\"context=3979651f-0f8a-4706-9b71-6a2838f2cc53\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@775c5ee1e119ad33af5eadbd7a9b612d\"},\"pageStack\":[{\"id\":\"page=4e5e1afa-f1b5-43d6-a536-2186337b168c\",\"p\":{\"_type\":\"Page\",\"_guid\":\"page@3bb2bc58d4346ab0c053c337bdf4a189\"},\"timestamp\":1756595220.264,\"pageErrors\":[],\"errorIndex\":0,\"consoleMessages\":[],\"consoleIndex\":0,\"activeDownloads\":{}}],\"traceFile\":\"\"}],\"id\":\"browser=0f4559ab-c853-47b3-9bf8-6855a34556ec\"}"}
+{"level":30,"time":"2025-08-30T23:07:01.964Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-30T23:07:01.964Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Changed active page"}
+{"level":30,"time":"2025-08-30T23:07:02.978Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-30T23:07:02.982Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:07:02.982Z","pid":3079,"hostname":"pkrvmccyg1gnepe","Take screenshot with options: ":{"path":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/screenshot/robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-08-30T23:07:03.013Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-08-30T23:07:03.017Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-30T23:07:03.020Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Removed page=d2c9c16c-be5d-4157-a55c-ded8dc41338d from context=3979651f-0f8a-4706-9b71-6a2838f2cc53 page stack"}
+{"level":30,"time":"2025-08-30T23:07:03.021Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Removed page=ec40d1f7-053e-428a-ba75-fe7027973fa0 from context=3979651f-0f8a-4706-9b71-6a2838f2cc53 page stack"}
+{"level":30,"time":"2025-08-30T23:07:03.050Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
@@ -31,8 +57,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.912Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.912Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.054Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.054Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
@@ -46,12 +72,12 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.916Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.916Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.920Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.920Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.922Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.922Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.059Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.059Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.062Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.062Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.064Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.064Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
@@ -65,10 +91,10 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.926Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.926Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.928Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.928Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.068Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.068Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.070Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.070Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
@@ -82,8 +108,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.932Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.932Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.073Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.074Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (/opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js:12227:15)
@@ -97,7 +123,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1698:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 =============================================================
-{"level":30,"time":"2025-08-30T22:36:28.935Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.936Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T22:36:28.951Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-08-30T22:36:28.951Z","pid":3092,"hostname":"pkrvmccyg1gnepe","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T23:07:03.077Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.077Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-30T23:07:03.094Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-30T23:07:03.094Z","pid":3079,"hostname":"pkrvmccyg1gnepe","msg":"End of node method closeAllBrowsers"}

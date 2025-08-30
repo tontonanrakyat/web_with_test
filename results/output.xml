@@ -1,68 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-30T22:36:28.321126" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-30T23:06:58.434005" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="/home/runner/work/web_with_test/web_with_test/tests/suites">
 <suite id="s1-s1" name="Coba" source="/home/runner/work/web_with_test/web_with_test/tests/suites/coba.robot">
-<test id="s1-s1-t1" name="Coba Satu" line="11">
+<test id="s1-s1-t1" name="Coba Satu" line="8">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.465653" level="INFO">somad</msg>
+<msg time="2025-08-30T23:06:58.563761" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.465389" elapsed="0.000340"/>
+<status status="PASS" start="2025-08-30T23:06:58.563513" elapsed="0.000322"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.466102" level="INFO">rahasia banget 456</msg>
+<msg time="2025-08-30T23:06:58.564209" level="INFO">rahasia banget 456</msg>
 <arg>${MYPWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.465916" elapsed="0.000240"/>
+<status status="PASS" start="2025-08-30T23:06:58.563993" elapsed="0.000272"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.466429" level="INFO">super secret 456</msg>
+<msg time="2025-08-30T23:06:58.564536" level="INFO">super secret 456</msg>
 <arg>${DB_PWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.466272" elapsed="0.000202"/>
+<status status="PASS" start="2025-08-30T23:06:58.564385" elapsed="0.000194"/>
 </kw>
-<msg time="2025-08-30T22:36:28.471070" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:57853</msg>
+<msg time="2025-08-30T23:06:58.568714" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:53713</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-30T22:36:28.464600" elapsed="0.002000"/>
+<status status="PASS" start="2025-08-30T23:06:58.562748" elapsed="0.001937"/>
 </test>
-<test id="s1-s1-t2" name="Coba Dua" line="20">
-<kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.909214" level="INFO">somad</msg>
-<arg>${NAMA}</arg>
-<doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.908979" elapsed="0.000294"/>
+<test id="s1-s1-t2" name="Coba Dua" line="14">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-08-30T23:06:59.007810" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/cf8f1e7d-f448-47c8-8199-79ea7bfc4f0c"}</msg>
+<msg time="2025-08-30T23:07:00.214379" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/cf8f1e7d-f448-47c8-8199-79ea7bfc4f0c"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=Yes</arg>
+<arg>slowMo=0:00:01</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-08-30T23:06:59.006932" elapsed="1.207690"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-30T23:07:01.865796" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
+<msg time="2025-08-30T23:07:01.865894" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>url=https://google.com</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-30T23:07:00.214869" elapsed="1.651237"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-08-30T23:07:01.939169" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-08-30T23:07:01.866308" elapsed="0.073034"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-08-30T23:07:02.979202" level="INFO">Successfully initialized new page object and opened url: http://127.0.0.1:5050</msg>
+<arg>url=http://127.0.0.1:5050</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-08-30T23:07:01.939528" elapsed="1.039906"/>
+</kw>
+<kw name="Take Screenshot" owner="Browser">
+<msg time="2025-08-30T23:07:03.014828" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<tag>PageContent</tag>
+<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
+<status status="PASS" start="2025-08-30T23:07:02.979638" elapsed="0.035374"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-08-30T23:07:03.051507" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-08-30T23:07:03.015224" elapsed="0.036486"/>
 </kw>
 <doc>ini dokumentasi dari test coba dua</doc>
-<status status="PASS" start="2025-08-30T22:36:28.906634" elapsed="0.002760"/>
+<status status="PASS" start="2025-08-30T23:06:59.004505" elapsed="4.047390"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-30T22:36:28.343520" elapsed="0.569948"/>
+<status status="PASS" start="2025-08-30T23:06:58.454952" elapsed="4.601074"/>
 </suite>
 <suite id="s1-s2" name="Lagi" source="/home/runner/work/web_with_test/web_with_test/tests/suites/lagi.robot">
 <test id="s1-s2-t1" name="Lagi Satu" line="11">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.923291" level="INFO">somad</msg>
+<msg time="2025-08-30T23:07:03.065494" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.923099" elapsed="0.000245"/>
+<status status="PASS" start="2025-08-30T23:07:03.065300" elapsed="0.000247"/>
 </kw>
 <doc>ini dokumentasi dari test lagi satu</doc>
-<status status="PASS" start="2025-08-30T22:36:28.920957" elapsed="0.002495"/>
+<status status="PASS" start="2025-08-30T23:07:03.063496" elapsed="0.002154"/>
 </test>
 <test id="s1-s2-t2" name="Lagi Dua" line="15">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T22:36:28.929550" level="INFO">somad</msg>
+<msg time="2025-08-30T23:07:03.070874" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T22:36:28.929374" elapsed="0.000227"/>
+<status status="PASS" start="2025-08-30T23:07:03.070696" elapsed="0.000229"/>
 </kw>
 <doc>ini dokumentasi dari test lagi dua</doc>
-<status status="PASS" start="2025-08-30T22:36:28.927357" elapsed="0.002343"/>
+<status status="PASS" start="2025-08-30T23:07:03.068900" elapsed="0.002125"/>
 </test>
 <doc>ini dokumentasi dari suite lagi</doc>
-<status status="PASS" start="2025-08-30T22:36:28.917237" elapsed="0.016016"/>
+<status status="PASS" start="2025-08-30T23:07:03.059914" elapsed="0.014903"/>
 </suite>
-<status status="PASS" start="2025-08-30T22:36:28.327067" elapsed="0.609875"/>
+<status status="PASS" start="2025-08-30T23:06:58.439209" elapsed="4.639045"/>
 </suite>
 <statistics>
 <total>
