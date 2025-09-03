@@ -2,9 +2,9 @@
 Documentation       ini dokumentasi dari suite lagi
 
 Library             Browser
-# Resource            ../resources/variables.resource
-# Variables           ../resources/variables.py
-# Variables           ../resources/variables.yml
+# Resource    ../resources/variables.resource
+# Variables    ../resources/variables.py
+# Variables    ../resources/variables.yml
 
 
 *** Test Cases ***
@@ -15,3 +15,11 @@ Lagi Satu
 Lagi Dua
     [Documentation]    ini dokumentasi dari test lagi dua
     BuiltIn.Log    ${NAMA}
+    Browser.New Browser    browser=chromium    headless=Yes    slowMo=0:00:01
+    Browser.New Context    recordVideo={'dir':'./videos'}
+    Browser.New Page    url=https://google.com
+    Browser.Click    selector="Gmail"
+    Browser.Go Back
+    Browser.Click    selector="Gambar"
+    Browser.Go Back
+    Browser.Close Context

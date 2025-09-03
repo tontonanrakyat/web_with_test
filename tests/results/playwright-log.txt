@@ -1,61 +1,47 @@
-{"level":30,"time":"2025-08-30T23:02:37.565Z","pid":25992,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:9612"}
-(node:25992) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-09-03T21:54:43.208Z","pid":34064,"hostname":"nostra-pc","msg":"Listening on 127.0.0.1:5161"}
+(node:34064) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-08-30T23:02:38.085Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-08-30T23:02:38.300Z","pid":25992,"hostname":"nostra-pc","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
-{"level":30,"time":"2025-08-30T23:02:38.302Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-08-30T23:02:38.301Z","pid":25992,"hostname":"nostra-pc","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-08-30T23:02:38.311Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-08-30T23:02:38.311Z","pid":25992,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@798a6e2bdadd0faa3b1069253a7dd433\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=5d314771-9faf-4087-9349-364edd63caee\"}"}
-{"level":30,"time":"2025-08-30T23:02:38.328Z","pid":25992,"hostname":"nostra-pc","msg":"Setting default timeout for context context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 to 10000"}
-{"level":30,"time":"2025-08-30T23:02:38.329Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active context: context=d8b3670a-b751-4606-b2e2-ae92e7234fa5"}
-{"level":30,"time":"2025-08-30T23:02:38.489Z","pid":25992,"hostname":"nostra-pc","msg":"Video path: undefined"}
-{"level":30,"time":"2025-08-30T23:02:38.489Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active page"}
-{"level":30,"time":"2025-08-30T23:02:40.260Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newPage"}
-{"level":30,"time":"2025-08-30T23:02:40.265Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-30T23:02:40.266Z","pid":25992,"hostname":"nostra-pc","Take screenshot with options: ":{"path":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\screenshot\\robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-30T23:02:40.354Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-30T23:02:40.358Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-08-30T23:02:40.358Z","pid":25992,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@798a6e2bdadd0faa3b1069253a7dd433\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=d8b3670a-b751-4606-b2e2-ae92e7234fa5\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@18077a8d8ebb0aca4cea47d29b4892f8\"},\"pageStack\":[{\"id\":\"page=234c7235-859b-4d30-8810-3fa7416de72c\",\"p\":{\"_type\":\"Page\",\"_guid\":\"page@dd1972fa5fd5db342de7490def834c46\"},\"timestamp\":1756594958.489,\"pageErrors\":[],\"errorIndex\":0,\"consoleMessages\":[],\"consoleIndex\":0,\"activeDownloads\":{}}],\"traceFile\":\"\"}],\"id\":\"browser=5d314771-9faf-4087-9349-364edd63caee\"}"}
-{"level":30,"time":"2025-08-30T23:02:40.402Z","pid":25992,"hostname":"nostra-pc","msg":"Video path: undefined"}
-{"level":30,"time":"2025-08-30T23:02:40.402Z","pid":25992,"hostname":"nostra-pc","msg":"Changed active page"}
-{"level":30,"time":"2025-08-30T23:02:41.420Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method newPage"}
-{"level":30,"time":"2025-08-30T23:02:41.425Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-08-30T23:02:41.425Z","pid":25992,"hostname":"nostra-pc","Take screenshot with options: ":{"path":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\screenshot\\robotframework-browser-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-08-30T23:02:41.495Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-08-30T23:02:41.499Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-08-30T23:02:41.510Z","pid":25992,"hostname":"nostra-pc","msg":"Removed page=576eff20-6f68-4815-a4c7-42572bf3e391 from context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 page stack"}
-{"level":30,"time":"2025-08-30T23:02:41.511Z","pid":25992,"hostname":"nostra-pc","msg":"Removed page=0e5ad8ca-ce50-4b03-8d76-d0e942f2136c from context=d8b3670a-b751-4606-b2e2-ae92e7234fa5 page stack"}
-{"level":30,"time":"2025-08-30T23:02:41.725Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method closeBrowser"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
-    at PlaywrightServer.setTimeout (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
-    at Object.onReceiveHalfClose (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
-    at ServerHttp2Stream.emit (node:events:531:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=============================================================
-{"level":30,"time":"2025-08-30T23:02:41.739Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T23:02:41.739Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
-================= Original suppressed error =================
-Error: Browser has been closed.
-    at PlaywrightState.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:12227:15)
-    at PlaywrightServer.getActiveBrowser (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13124:59)
-    at PlaywrightServer.setTimeout (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js:13372:57)
-    at Object.onReceiveHalfClose (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
-    at BaseServerInterceptingCall.maybePushNextMessage (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
-    at BaseServerInterceptingCall.handleEndEvent (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
-    at ServerHttp2Stream.<anonymous> (D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
-    at ServerHttp2Stream.emit (node:events:531:35)
-    at endReadableNT (node:internal/streams/readable:1696:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-=============================================================
-{"level":30,"time":"2025-08-30T23:02:41.753Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T23:02:41.753Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-08-30T23:02:41.993Z","pid":25992,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-08-30T23:02:41.994Z","pid":25992,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-03T21:54:43.782Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-09-03T21:54:43.972Z","pid":34064,"hostname":"nostra-pc","msg":"Adding browser to stack: chromium, version: 140.0.7339.16"}
+{"level":30,"time":"2025-09-03T21:54:43.972Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-09-03T21:54:43.972Z","pid":34064,"hostname":"nostra-pc","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-09-03T21:54:43.982Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-09-03T21:54:43.983Z","pid":34064,"hostname":"nostra-pc","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"D:\\\\CODING\\\\robot\\\\web_with_test\\\\tests\\\\results\\\\browser\\\\video\\\\videos\",\"size\":{\"height\":720,\"width\":1280}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-09-03T21:54:43.983Z","pid":34064,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d5f0bc12df7d750ec3cde3e2c772e98b\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=c6a4d550-8aac-4ffe-95d7-86696827d5ee\"}"}
+{"level":30,"time":"2025-09-03T21:54:43.983Z","pid":34064,"hostname":"nostra-pc","msg":"Trace file: "}
+{"level":30,"time":"2025-09-03T21:54:44.000Z","pid":34064,"hostname":"nostra-pc","msg":"Setting default timeout for context context=131090fe-5120-4bf9-be81-feff8225be29 to 10000"}
+{"level":30,"time":"2025-09-03T21:54:44.001Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method newContext"}
+{"level":30,"time":"2025-09-03T21:54:44.000Z","pid":34064,"hostname":"nostra-pc","msg":"Changed active context: context=131090fe-5120-4bf9-be81-feff8225be29"}
+{"level":30,"time":"2025-09-03T21:54:44.007Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-09-03T21:54:44.007Z","pid":34064,"hostname":"nostra-pc","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@d5f0bc12df7d750ec3cde3e2c772e98b\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=131090fe-5120-4bf9-be81-feff8225be29\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@5670999e5c5d4116845e919a6de3517d\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"recordVideo\":{\"dir\":\"D:\\\\CODING\\\\robot\\\\web_with_test\\\\tests\\\\results\\\\browser\\\\video\\\\videos\",\"size\":{\"height\":720,\"width\":1280}},\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}},\"traceFile\":\"\"}],\"id\":\"browser=c6a4d550-8aac-4ffe-95d7-86696827d5ee\"}"}
+{"level":30,"time":"2025-09-03T21:54:44.279Z","pid":34064,"hostname":"nostra-pc","msg":"Video path: D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos\\29d8b30d9ca22ce9c34b6a0f8d7ed1ba.webm"}
+{"level":30,"time":"2025-09-03T21:54:44.279Z","pid":34064,"hostname":"nostra-pc","msg":"Changed active page"}
+{"level":30,"time":"2025-09-03T21:54:45.887Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method newPage"}
+{"level":30,"time":"2025-09-03T21:54:45.892Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-03T21:54:45.893Z","pid":34064,"hostname":"nostra-pc","msg":"Strict mode is enabled, find Locator with \"Gmail\" in page."}
+{"level":30,"time":"2025-09-03T21:54:47.449Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method click"}
+{"level":30,"time":"2025-09-03T21:54:48.860Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method click"}
+{"level":30,"time":"2025-09-03T21:54:48.860Z","pid":34064,"hostname":"nostra-pc","msg":"Strict mode is enabled, find Locator with \"Gambar\" in page."}
+{"level":30,"time":"2025-09-03T21:54:50.010Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method click"}
+{"level":30,"time":"2025-09-03T21:54:51.183Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.187Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.190Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2025-09-03T21:54:51.191Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2025-09-03T21:54:51.194Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.196Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.199Z","pid":34064,"hostname":"nostra-pc","msg":"Changing current active page: page=bc1ac529-ec1f-43a4-8f5b-8032c35030f7"}
+{"level":30,"time":"2025-09-03T21:54:51.199Z","pid":34064,"hostname":"nostra-pc","msg":"Changed active page"}
+{"level":30,"time":"2025-09-03T21:54:51.204Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.206Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.209Z","pid":34064,"hostname":"nostra-pc","msg":"Changed active context: context=131090fe-5120-4bf9-be81-feff8225be29"}
+{"level":30,"time":"2025-09-03T21:54:51.209Z","pid":34064,"hostname":"nostra-pc","msg":"Changing current active page: page=bc1ac529-ec1f-43a4-8f5b-8032c35030f7"}
+{"level":30,"time":"2025-09-03T21:54:51.209Z","pid":34064,"hostname":"nostra-pc","msg":"Changed active page"}
+{"level":30,"time":"2025-09-03T21:54:51.212Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-09-03T21:54:51.228Z","pid":34064,"hostname":"nostra-pc","msg":"Removed page=7158ab8b-8d52-4862-a161-a97533f11bdb from context=131090fe-5120-4bf9-be81-feff8225be29 page stack"}
+{"level":30,"time":"2025-09-03T21:54:51.281Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-09-03T21:54:51.303Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.303Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.313Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.313Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-09-03T21:54:51.986Z","pid":34064,"hostname":"nostra-pc","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-09-03T21:54:52.121Z","pid":34064,"hostname":"nostra-pc","msg":"End of node method closeAllBrowsers"}

@@ -1,69 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-08-31T06:02:36.751762" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-09-04T04:54:42.437109" rpa="false" schemaversion="5">
 <suite id="s1" name="Web With Test" source="D:\CODING\robot\web_with_test">
 <suite id="s1-s1" name="Tests" source="D:\CODING\robot\web_with_test\tests">
 <suite id="s1-s1-s1" name="Suites" source="D:\CODING\robot\web_with_test\tests\suites">
-<suite id="s1-s1-s1-s1" name="Coba" source="D:\CODING\robot\web_with_test\tests\suites\coba.robot">
-<test id="s1-s1-s1-s1-t1" name="Coba Dua" line="14">
+<suite id="s1-s1-s1-s1" name="Lagi" source="D:\CODING\robot\web_with_test\tests\suites\lagi.robot">
+<test id="s1-s1-s1-s1-t1" name="Lagi Dua" line="15">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-09-04T04:54:42.638118" level="INFO">somad</msg>
+<arg>${NAMA}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-09-04T04:54:42.637763" elapsed="0.000510"/>
+</kw>
 <kw name="New Browser" owner="Browser">
-<msg time="2025-08-31T06:02:36.966900" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\ff75c269-af7b-45fd-b66f-e88ea98d12d7"}</msg>
-<msg time="2025-08-31T06:02:36.995978" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:9612</msg>
-<msg time="2025-08-31T06:02:38.303810" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\ff75c269-af7b-45fd-b66f-e88ea98d12d7"}</msg>
+<msg time="2025-09-04T04:54:42.639599" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\509e244f-1056-4522-93a5-da08e632ce71"}</msg>
+<msg time="2025-09-04T04:54:42.665990" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:5161</msg>
+<msg time="2025-09-04T04:54:43.974754" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\509e244f-1056-4522-93a5-da08e632ce71"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=No</arg>
 <arg>slowMo=0:00:01</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-08-31T06:02:36.965957" elapsed="1.338511"/>
+<status status="PASS" start="2025-09-04T04:54:42.638756" elapsed="1.336540"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-09-04T04:54:43.979767" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "recordVideo": {
+    "dir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos",
+    "size": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-09-04T04:54:44.003415" level="INFO">Successfully created context. </msg>
+<msg time="2025-09-04T04:54:44.003640" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': 'D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos', 'size': {'height': 720, 'width': 1280}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<arg>recordVideo={'dir':'./videos'}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-09-04T04:54:43.976060" elapsed="0.027809"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-08-31T06:02:40.261696" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
-<msg time="2025-08-31T06:02:40.261912" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-09-04T04:54:45.889737" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
+<msg time="2025-09-04T04:54:45.890151" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="browser/video/videos/29d8b30d9ca22ce9c34b6a0f8d7ed1ba.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
 <arg>url=https://google.com</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-31T06:02:38.306050" elapsed="1.956080"/>
+<status status="PASS" start="2025-09-04T04:54:44.004355" elapsed="1.886010"/>
 </kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2025-08-31T06:02:40.355702" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-04T04:54:45.891497" level="INFO">Clicks the element '"Gmail"'.</msg>
+<arg>selector="Gmail"</arg>
 <tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-08-31T06:02:40.262650" elapsed="0.093322"/>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-04T04:54:45.890808" elapsed="1.560561"/>
 </kw>
-<kw name="New Page" owner="Browser">
-<msg time="2025-08-31T06:02:41.422088" level="INFO">Successfully initialized new page object and opened url: http://127.0.0.1:5050</msg>
-<arg>url=http://127.0.0.1:5050</arg>
+<kw name="Go Back" owner="Browser">
+<msg time="2025-09-04T04:54:48.857483" level="INFO">Did Go Back</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-31T06:02:40.356422" elapsed="1.066047"/>
+<doc>Navigates to the previous page in history.</doc>
+<status status="PASS" start="2025-09-04T04:54:47.451772" elapsed="1.405988"/>
 </kw>
-<kw name="Take Screenshot" owner="Browser">
-<msg time="2025-08-31T06:02:41.496637" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-04T04:54:48.859160" level="INFO">Clicks the element '"Gambar"'.</msg>
+<arg>selector="Gambar"</arg>
 <tag>PageContent</tag>
-<doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-08-31T06:02:41.422932" elapsed="0.074216"/>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-04T04:54:48.858219" elapsed="1.154063"/>
 </kw>
-<kw name="Close Browser" owner="Browser">
-<msg time="2025-08-31T06:02:41.726858" level="INFO">Closed browser</msg>
+<kw name="Go Back" owner="Browser">
+<msg time="2025-09-04T04:54:51.180775" level="INFO">Did Go Back</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-31T06:02:41.497538" elapsed="0.229822"/>
+<doc>Navigates to the previous page in history.</doc>
+<status status="PASS" start="2025-09-04T04:54:50.012676" elapsed="1.168559"/>
 </kw>
-<doc>ini dokumentasi dari test coba dua</doc>
-<status status="PASS" start="2025-08-31T06:02:36.960150" elapsed="4.767722"/>
+<kw name="Close Context" owner="Browser">
+<msg time="2025-09-04T04:54:51.189629" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-09-04T04:54:51.192913" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-09-04T04:54:51.198235" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2025-09-04T04:54:51.202665" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2025-09-04T04:54:51.203402" level="INFO">Switching context to context=131090fe-5120-4bf9-be81-feff8225be29 in CURRENT</msg>
+<msg time="2025-09-04T04:54:51.212290" level="INFO">Successfully changed active context: context=131090fe-5120-4bf9-be81-feff8225be29</msg>
+<msg time="2025-09-04T04:54:51.283736" level="INFO">Successfully closed Context</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes a Context.</doc>
+<status status="PASS" start="2025-09-04T04:54:51.181729" elapsed="0.102710"/>
+</kw>
+<doc>ini dokumentasi dari test lagi dua</doc>
+<status status="PASS" start="2025-09-04T04:54:42.634053" elapsed="8.651124"/>
 </test>
-<doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-31T06:02:36.808944" elapsed="4.933142"/>
+<doc>ini dokumentasi dari suite lagi</doc>
+<status status="PASS" start="2025-09-04T04:54:42.489420" elapsed="8.816901"/>
 </suite>
-<status status="PASS" start="2025-08-31T06:02:36.800344" elapsed="4.955144"/>
+<status status="PASS" start="2025-09-04T04:54:42.483070" elapsed="8.832957"/>
 </suite>
-<status status="PASS" start="2025-08-31T06:02:36.796791" elapsed="4.962149"/>
+<status status="PASS" start="2025-09-04T04:54:42.478953" elapsed="8.841118"/>
 </suite>
-<status status="PASS" start="2025-08-31T06:02:36.763811" elapsed="4.997923"/>
+<status status="PASS" start="2025-09-04T04:54:42.448675" elapsed="8.875335"/>
 </suite>
 <statistics>
 <total>
@@ -75,7 +127,7 @@
 <stat name="Web With Test" id="s1" pass="1" fail="0" skip="0">Web With Test</stat>
 <stat name="Tests" id="s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests</stat>
 <stat name="Suites" id="s1-s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests.Suites</stat>
-<stat name="Coba" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests.Suites.Coba</stat>
+<stat name="Lagi" id="s1-s1-s1-s1" pass="1" fail="0" skip="0">Web With Test.Tests.Suites.Lagi</stat>
 </suite>
 </statistics>
 <errors>
