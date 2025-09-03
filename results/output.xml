@@ -1,109 +1,202 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-08-30T23:06:58.434005" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.7 on linux)" generated="2025-09-03T22:16:32.996392" rpa="false" schemaversion="5">
 <suite id="s1" name="Suites" source="/home/runner/work/web_with_test/web_with_test/tests/suites">
 <suite id="s1-s1" name="Coba" source="/home/runner/work/web_with_test/web_with_test/tests/suites/coba.robot">
 <test id="s1-s1-t1" name="Coba Satu" line="8">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T23:06:58.563761" level="INFO">somad</msg>
+<msg time="2025-09-03T22:16:33.123826" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T23:06:58.563513" elapsed="0.000322"/>
+<status status="PASS" start="2025-09-03T22:16:33.123593" elapsed="0.000301"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T23:06:58.564209" level="INFO">rahasia banget 456</msg>
+<msg time="2025-09-03T22:16:33.124245" level="INFO">rahasia banget 456</msg>
 <arg>${MYPWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T23:06:58.563993" elapsed="0.000272"/>
+<status status="PASS" start="2025-09-03T22:16:33.124042" elapsed="0.000257"/>
 </kw>
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T23:06:58.564536" level="INFO">super secret 456</msg>
+<msg time="2025-09-03T22:16:33.124555" level="INFO">super secret 456</msg>
 <arg>${DB_PWD}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T23:06:58.564385" elapsed="0.000194"/>
+<status status="PASS" start="2025-09-03T22:16:33.124411" elapsed="0.000186"/>
 </kw>
-<msg time="2025-08-30T23:06:58.568714" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:53713</msg>
+<msg time="2025-09-03T22:16:33.128837" level="INFO">Starting Browser process /opt/hostedtoolcache/Python/3.13.7/x64/lib/python3.13/site-packages/Browser/wrapper/index.js using at 127.0.0.1:39289</msg>
 <doc>ini dokumentasi dari test coba satu</doc>
-<status status="PASS" start="2025-08-30T23:06:58.562748" elapsed="0.001937"/>
+<status status="PASS" start="2025-09-03T22:16:33.122861" elapsed="0.001847"/>
 </test>
 <test id="s1-s1-t2" name="Coba Dua" line="14">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-08-30T23:06:59.007810" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/cf8f1e7d-f448-47c8-8199-79ea7bfc4f0c"}</msg>
-<msg time="2025-08-30T23:07:00.214379" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/cf8f1e7d-f448-47c8-8199-79ea7bfc4f0c"}</msg>
+<msg time="2025-09-03T22:16:33.633262" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/00d21637-2c99-4fd6-8490-3e31989c2fb7"}</msg>
+<msg time="2025-09-03T22:16:36.422921" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/00d21637-2c99-4fd6-8490-3e31989c2fb7"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=Yes</arg>
 <arg>slowMo=0:00:01</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-08-30T23:06:59.006932" elapsed="1.207690"/>
+<status status="PASS" start="2025-09-03T22:16:33.632390" elapsed="2.790749"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-08-30T23:07:01.865796" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
-<msg time="2025-08-30T23:07:01.865894" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-09-03T22:16:37.856573" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
+<msg time="2025-09-03T22:16:37.856656" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>url=https://google.com</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-30T23:07:00.214869" elapsed="1.651237"/>
+<status status="PASS" start="2025-09-03T22:16:36.423380" elapsed="1.433439"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2025-08-30T23:07:01.939169" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-09-03T22:16:37.927515" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-08-30T23:07:01.866308" elapsed="0.073034"/>
+<status status="PASS" start="2025-09-03T22:16:37.857015" elapsed="0.070685"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-08-30T23:07:02.979202" level="INFO">Successfully initialized new page object and opened url: http://127.0.0.1:5050</msg>
+<msg time="2025-09-03T22:16:38.967235" level="INFO">Successfully initialized new page object and opened url: http://127.0.0.1:5050</msg>
 <arg>url=http://127.0.0.1:5050</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-30T23:07:01.939528" elapsed="1.039906"/>
+<status status="PASS" start="2025-09-03T22:16:37.927888" elapsed="1.039569"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser">
-<msg time="2025-08-30T23:07:03.014828" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-09-03T22:16:39.003700" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-2.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-2.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-08-30T23:07:02.979638" elapsed="0.035374"/>
+<status status="PASS" start="2025-09-03T22:16:38.967654" elapsed="0.036211"/>
 </kw>
 <kw name="Close Browser" owner="Browser">
-<msg time="2025-08-30T23:07:03.051507" level="INFO">Closed browser</msg>
+<msg time="2025-09-03T22:16:39.042856" level="INFO">Closed browser</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-30T23:07:03.015224" elapsed="0.036486"/>
+<status status="PASS" start="2025-09-03T22:16:39.004042" elapsed="0.038998"/>
 </kw>
 <doc>ini dokumentasi dari test coba dua</doc>
-<status status="PASS" start="2025-08-30T23:06:59.004505" elapsed="4.047390"/>
+<status status="PASS" start="2025-09-03T22:16:33.629907" elapsed="5.413345"/>
 </test>
 <doc>ini dokumentasi dari suite coba</doc>
-<status status="PASS" start="2025-08-30T23:06:58.454952" elapsed="4.601074"/>
+<status status="PASS" start="2025-09-03T22:16:33.017264" elapsed="6.029906"/>
 </suite>
 <suite id="s1-s2" name="Lagi" source="/home/runner/work/web_with_test/web_with_test/tests/suites/lagi.robot">
 <test id="s1-s2-t1" name="Lagi Satu" line="11">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T23:07:03.065494" level="INFO">somad</msg>
+<msg time="2025-09-03T22:16:39.057267" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T23:07:03.065300" elapsed="0.000247"/>
+<status status="PASS" start="2025-09-03T22:16:39.057049" elapsed="0.000271"/>
 </kw>
 <doc>ini dokumentasi dari test lagi satu</doc>
-<status status="PASS" start="2025-08-30T23:07:03.063496" elapsed="0.002154"/>
+<status status="PASS" start="2025-09-03T22:16:39.055216" elapsed="0.002209"/>
 </test>
 <test id="s1-s2-t2" name="Lagi Dua" line="15">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-08-30T23:07:03.070874" level="INFO">somad</msg>
+<msg time="2025-09-03T22:16:39.063137" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-08-30T23:07:03.070696" elapsed="0.000229"/>
+<status status="PASS" start="2025-09-03T22:16:39.062972" elapsed="0.000237"/>
+</kw>
+<kw name="New Browser" owner="Browser">
+<msg time="2025-09-03T22:16:39.063994" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/7f39a5c0-1d08-49d2-bef7-3b9a78a9daf2"}</msg>
+<msg time="2025-09-03T22:16:39.109121" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"/home/runner/work/web_with_test/web_with_test/tests/results/browser/traces/temp/7f39a5c0-1d08-49d2-bef7-3b9a78a9daf2"}</msg>
+<arg>browser=chromium</arg>
+<arg>headless=Yes</arg>
+<arg>slowMo=0:00:01</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-09-03T22:16:39.063333" elapsed="0.046054"/>
+</kw>
+<kw name="New Context" owner="Browser">
+<msg time="2025-09-03T22:16:39.112161" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": false,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "recordVideo": {
+    "dir": "/home/runner/work/web_with_test/web_with_test/tests/results/browser/video/videos",
+    "size": {
+      "height": 720,
+      "width": 1280
+    }
+  },
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-09-03T22:16:39.119165" level="INFO">Successfully created context. </msg>
+<msg time="2025-09-03T22:16:39.119263" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': '/home/runner/work/web_with_test/web_with_test/tests/results/browser/video/videos', 'size': {'height': 720, 'width': 1280}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<arg>recordVideo={'dir':'./videos'}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new BrowserContext with specified options.</doc>
+<status status="PASS" start="2025-09-03T22:16:39.109644" elapsed="0.009779"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-09-03T22:16:40.637095" level="INFO">Successfully initialized new page object and opened url: https://google.com?hl=en</msg>
+<msg time="2025-09-03T22:16:40.637395" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="browser/video/videos/264c967acc23a5ee8b27245185979e0a.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
+<arg>url=https://google.com?hl=en</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-09-03T22:16:39.119645" elapsed="1.517907"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-03T22:16:40.638259" level="INFO">Clicks the element '"Gmail"'.</msg>
+<arg>selector="Gmail"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-03T22:16:40.637740" elapsed="1.250652"/>
+</kw>
+<kw name="Go Back" owner="Browser">
+<msg time="2025-09-03T22:16:43.281129" level="INFO">Did Go Back</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the previous page in history.</doc>
+<status status="PASS" start="2025-09-03T22:16:41.888614" elapsed="1.392765"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-03T22:16:43.282069" level="INFO">Clicks the element '"Images"'.</msg>
+<arg>selector="Images"</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-03T22:16:43.281573" elapsed="1.172773"/>
+</kw>
+<kw name="Go Back" owner="Browser">
+<msg time="2025-09-03T22:16:45.624011" level="INFO">Did Go Back</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the previous page in history.</doc>
+<status status="PASS" start="2025-09-03T22:16:44.454575" elapsed="1.169583"/>
+</kw>
+<kw name="Close Context" owner="Browser">
+<msg time="2025-09-03T22:16:45.628949" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-09-03T22:16:45.630912" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-09-03T22:16:45.633784" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2025-09-03T22:16:45.635643" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2025-09-03T22:16:45.636257" level="INFO">Switching context to context=4c62c135-d476-4cdb-97b5-b2b9de8ca105 in CURRENT</msg>
+<msg time="2025-09-03T22:16:45.640437" level="INFO">Successfully changed active context: context=4c62c135-d476-4cdb-97b5-b2b9de8ca105</msg>
+<msg time="2025-09-03T22:16:45.681034" level="INFO">Successfully closed Context</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes a Context.</doc>
+<status status="PASS" start="2025-09-03T22:16:45.624372" elapsed="0.056917"/>
 </kw>
 <doc>ini dokumentasi dari test lagi dua</doc>
-<status status="PASS" start="2025-08-30T23:07:03.068900" elapsed="0.002125"/>
+<status status="PASS" start="2025-09-03T22:16:39.061284" elapsed="6.620181"/>
 </test>
 <doc>ini dokumentasi dari suite lagi</doc>
-<status status="PASS" start="2025-08-30T23:07:03.059914" elapsed="0.014903"/>
+<status status="PASS" start="2025-09-03T22:16:39.050995" elapsed="6.633584"/>
 </suite>
-<status status="PASS" start="2025-08-30T23:06:58.439209" elapsed="4.639045"/>
+<status status="PASS" start="2025-09-03T22:16:33.001520" elapsed="12.686064"/>
 </suite>
 <statistics>
 <total>
