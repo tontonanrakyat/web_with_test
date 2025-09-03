@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-09-04T04:54:42.437109" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.13.5 on win32)" generated="2025-09-04T05:14:48.313548" rpa="false" schemaversion="5">
 <suite id="s1" name="Web With Test" source="D:\CODING\robot\web_with_test">
 <suite id="s1-s1" name="Tests" source="D:\CODING\robot\web_with_test\tests">
 <suite id="s1-s1-s1" name="Suites" source="D:\CODING\robot\web_with_test\tests\suites">
 <suite id="s1-s1-s1-s1" name="Lagi" source="D:\CODING\robot\web_with_test\tests\suites\lagi.robot">
 <test id="s1-s1-s1-s1-t1" name="Lagi Dua" line="15">
 <kw name="Log" owner="BuiltIn">
-<msg time="2025-09-04T04:54:42.638118" level="INFO">somad</msg>
+<msg time="2025-09-04T05:14:48.506836" level="INFO">somad</msg>
 <arg>${NAMA}</arg>
 <doc>Logs the given message with the given level.</doc>
-<status status="PASS" start="2025-09-04T04:54:42.637763" elapsed="0.000510"/>
+<status status="PASS" start="2025-09-04T05:14:48.506249" elapsed="0.000859"/>
 </kw>
 <kw name="New Browser" owner="Browser">
-<msg time="2025-09-04T04:54:42.639599" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\509e244f-1056-4522-93a5-da08e632ce71"}</msg>
-<msg time="2025-09-04T04:54:42.665990" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:5161</msg>
-<msg time="2025-09-04T04:54:43.974754" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\509e244f-1056-4522-93a5-da08e632ce71"}</msg>
+<msg time="2025-09-04T05:14:48.508505" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 1000.0, "timeout": 30000.0, "tracesDir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\7f2a1545-416a-4876-b633-4a5131b439fd"}</msg>
+<msg time="2025-09-04T05:14:48.535455" level="INFO">Starting Browser process D:\CODING\robot\web_with_test\.venv\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:11507</msg>
+<msg time="2025-09-04T05:14:49.337259" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":1000,"timeout":30000,"tracesDir":"D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\traces\\temp\\7f2a1545-416a-4876-b633-4a5131b439fd"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=No</arg>
 <arg>slowMo=0:00:01</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-09-04T04:54:42.638756" elapsed="1.336540"/>
+<status status="PASS" start="2025-09-04T05:14:48.507681" elapsed="0.830264"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2025-09-04T04:54:43.979767" level="INFO">{
+<msg time="2025-09-04T05:14:49.342263" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -34,88 +34,88 @@
   "recordVideo": {
     "dir": "D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos",
     "size": {
-      "height": 720,
-      "width": 1280
+      "width": 1280,
+      "height": 720
     }
   },
   "reducedMotion": "no-preference",
   "serviceWorkers": "allow",
   "viewport": {
-    "height": 720,
-    "width": 1280
+    "width": 1280,
+    "height": 720
   }
 }</msg>
-<msg time="2025-09-04T04:54:44.003415" level="INFO">Successfully created context. </msg>
-<msg time="2025-09-04T04:54:44.003640" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': 'D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos', 'size': {'height': 720, 'width': 1280}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-09-04T05:14:49.368901" level="INFO">Successfully created context. </msg>
+<msg time="2025-09-04T05:14:49.369356" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'recordVideo': {'dir': 'D:\\CODING\\robot\\web_with_test\\tests\\results\\browser\\video\\videos', 'size': {'width': 1280, 'height': 720}}, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'width': 1280, 'height': 720}}</msg>
 <arg>recordVideo={'dir':'./videos'}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-09-04T04:54:43.976060" elapsed="0.027809"/>
+<status status="PASS" start="2025-09-04T05:14:49.338833" elapsed="0.030809"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-09-04T04:54:45.889737" level="INFO">Successfully initialized new page object and opened url: https://google.com</msg>
-<msg time="2025-09-04T04:54:45.890151" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="browser/video/videos/29d8b30d9ca22ce9c34b6a0f8d7ed1ba.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
-<arg>url=https://google.com</arg>
+<msg time="2025-09-04T05:14:51.317368" level="INFO">Successfully initialized new page object and opened url: https://google.com?hl=en</msg>
+<msg time="2025-09-04T05:14:51.318605" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;video width="1280" height="720" controls&gt;&lt;source src="browser/video/videos/bf51038f72144c111aa8e8c30ea65209.webm" type="video/webm"&gt;&lt;/video&gt;</msg>
+<arg>url=https://google.com?hl=en</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-09-04T04:54:44.004355" elapsed="1.886010"/>
+<status status="PASS" start="2025-09-04T05:14:49.370085" elapsed="1.949222"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-09-04T04:54:45.891497" level="INFO">Clicks the element '"Gmail"'.</msg>
+<msg time="2025-09-04T05:14:51.320740" level="INFO">Clicks the element '"Gmail"'.</msg>
 <arg>selector="Gmail"</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-09-04T04:54:45.890808" elapsed="1.560561"/>
+<status status="PASS" start="2025-09-04T05:14:51.319887" elapsed="1.567941"/>
 </kw>
 <kw name="Go Back" owner="Browser">
-<msg time="2025-09-04T04:54:48.857483" level="INFO">Did Go Back</msg>
+<msg time="2025-09-04T05:14:54.311842" level="INFO">Did Go Back</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Navigates to the previous page in history.</doc>
-<status status="PASS" start="2025-09-04T04:54:47.451772" elapsed="1.405988"/>
+<status status="PASS" start="2025-09-04T05:14:52.888311" elapsed="1.423888"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-09-04T04:54:48.859160" level="INFO">Clicks the element '"Gambar"'.</msg>
-<arg>selector="Gambar"</arg>
+<msg time="2025-09-04T05:14:54.313630" level="INFO">Clicks the element '"Images"'.</msg>
+<arg>selector="Images"</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-09-04T04:54:48.858219" elapsed="1.154063"/>
+<status status="PASS" start="2025-09-04T05:14:54.312778" elapsed="1.167812"/>
 </kw>
 <kw name="Go Back" owner="Browser">
-<msg time="2025-09-04T04:54:51.180775" level="INFO">Did Go Back</msg>
+<msg time="2025-09-04T05:14:56.700832" level="INFO">Did Go Back</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Navigates to the previous page in history.</doc>
-<status status="PASS" start="2025-09-04T04:54:50.012676" elapsed="1.168559"/>
+<status status="PASS" start="2025-09-04T05:14:55.480988" elapsed="1.220119"/>
 </kw>
 <kw name="Close Context" owner="Browser">
-<msg time="2025-09-04T04:54:51.189629" level="INFO">Switching browser to CURRENT</msg>
-<msg time="2025-09-04T04:54:51.192913" level="INFO">Returned active browser id. CURRENT</msg>
-<msg time="2025-09-04T04:54:51.198235" level="INFO">Switching context to CURRENT in CURRENT</msg>
-<msg time="2025-09-04T04:54:51.202665" level="INFO">Returned active context id: CURRENT</msg>
-<msg time="2025-09-04T04:54:51.203402" level="INFO">Switching context to context=131090fe-5120-4bf9-be81-feff8225be29 in CURRENT</msg>
-<msg time="2025-09-04T04:54:51.212290" level="INFO">Successfully changed active context: context=131090fe-5120-4bf9-be81-feff8225be29</msg>
-<msg time="2025-09-04T04:54:51.283736" level="INFO">Successfully closed Context</msg>
+<msg time="2025-09-04T05:14:56.710945" level="INFO">Switching browser to CURRENT</msg>
+<msg time="2025-09-04T05:14:56.714922" level="INFO">Returned active browser id. CURRENT</msg>
+<msg time="2025-09-04T05:14:56.721203" level="INFO">Switching context to CURRENT in CURRENT</msg>
+<msg time="2025-09-04T05:14:56.726554" level="INFO">Returned active context id: CURRENT</msg>
+<msg time="2025-09-04T05:14:56.727628" level="INFO">Switching context to context=17f77533-9212-4978-9fd9-f1194354ad6d in CURRENT</msg>
+<msg time="2025-09-04T05:14:56.742413" level="INFO">Successfully changed active context: context=17f77533-9212-4978-9fd9-f1194354ad6d</msg>
+<msg time="2025-09-04T05:14:56.806181" level="INFO">Successfully closed Context</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Closes a Context.</doc>
-<status status="PASS" start="2025-09-04T04:54:51.181729" elapsed="0.102710"/>
+<status status="PASS" start="2025-09-04T05:14:56.701562" elapsed="0.105318"/>
 </kw>
 <doc>ini dokumentasi dari test lagi dua</doc>
-<status status="PASS" start="2025-09-04T04:54:42.634053" elapsed="8.651124"/>
+<status status="PASS" start="2025-09-04T05:14:48.502229" elapsed="8.305241"/>
 </test>
 <doc>ini dokumentasi dari suite lagi</doc>
-<status status="PASS" start="2025-09-04T04:54:42.489420" elapsed="8.816901"/>
+<status status="PASS" start="2025-09-04T05:14:48.362885" elapsed="8.474428"/>
 </suite>
-<status status="PASS" start="2025-09-04T04:54:42.483070" elapsed="8.832957"/>
+<status status="PASS" start="2025-09-04T05:14:48.359528" elapsed="8.496802"/>
 </suite>
-<status status="PASS" start="2025-09-04T04:54:42.478953" elapsed="8.841118"/>
+<status status="PASS" start="2025-09-04T05:14:48.354033" elapsed="8.506917"/>
 </suite>
-<status status="PASS" start="2025-09-04T04:54:42.448675" elapsed="8.875335"/>
+<status status="PASS" start="2025-09-04T05:14:48.326689" elapsed="8.537958"/>
 </suite>
 <statistics>
 <total>

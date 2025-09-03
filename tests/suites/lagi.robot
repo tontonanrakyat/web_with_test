@@ -17,9 +17,9 @@ Lagi Dua
     BuiltIn.Log    ${NAMA}
     Browser.New Browser    browser=chromium    headless=Yes    slowMo=0:00:01
     Browser.New Context    recordVideo={'dir':'./videos'}
-    Browser.New Page    url=https://google.com
+    Browser.New Page    url=https://google.com?hl=en
     Browser.Click    selector="Gmail"
     Browser.Go Back
-    Browser.Click    selector="Gambar"
+    Browser.Click    selector="Images"
     Browser.Go Back
     Browser.Close Context
